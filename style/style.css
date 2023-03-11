@@ -69,10 +69,12 @@
  .social-icon {
    display: flex;
    gap: 20px;
+   padding: 0;
  }
 
  .social-icon__item {
    list-style-type: none;
+   
  }
 
  .social-icon__image {
@@ -169,6 +171,7 @@
    font-family: 'Roboto-Bold';
    font-size: 36px;
    line-height: 42px;
+   margin: 0;
  }
 
  .features-cards {
@@ -216,6 +219,7 @@
  .portfolio-cards {
   display: flex;
   gap: 16px;
+  margin-top: 54px;
   
  }
  .portfolio-card {
@@ -265,3 +269,87 @@
    .portfolio-card__button:hover {
     box-shadow: 0 4px 2px #EC1F46;
    }
+   .gallery {
+    background-color: #1B2944;
+   }
+   .gallery-items {
+    max-width: 75%;
+    width: 100%;
+    margin: 96px auto 96px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 224px);
+    grid-template-rows: repeat(3, 224px);;
+    gap: 16px;
+   }
+   .gallery__image {
+    height: 224px;
+    width: 224px;
+    object-fit: cover;
+   }
+   .gallery__video {
+    border: none;
+   }
+   .footer {
+    background-color: #1B2944;
+   }
+   .contacts {
+    max-width: 75%;
+    width: 100%;
+    margin: 64px auto 93px auto;
+    display: flex;
+    flex-direction: column;
+   }
+   .contacts-block {
+    display: flex;
+    margin-top: 88px;
+    gap: 96px;  
+
+   }
+   .contacts__form {
+    min-width: 464px;
+    height: 456px;
+    background-color: #fff;
+    border-radius: 5px;  
+    box-shadow: -5px 5px 2px #FFC41D;
+    position: relative;
+   }
+
+   .contacts-communication {
+    display: flex;
+    align-content: flex-start;
+    column-gap: 100px;
+    row-gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+   }
+   .contacts-communication__cell {
+    display: flex;
+    flex-direction: column;
+
+   }
+   .contacts-communication__title {
+    color: #fff;
+    font-family: 'Roboto-Bold';
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+   }
+   .contacts-communication__text {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 20px 0 0 0;
+   }
+   .contacts-communication__nav {
+    display: flex;
+    gap: 50px;
+    padding-left: 0;
+    margin: 0;
+   }
+   .privacy {
+    color: #949494;
+    font-size: 15px;
+    line-height: 17px;
+    margin-top: 140px;
+    }
