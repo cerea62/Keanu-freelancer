@@ -1,0 +1,10 @@
+.hero__image {
+   position: absolute;
+   top: 117px;
+   right: 0;
+   height: 362px;
+   width: 362px;
+   border: 11px solid #fff;
+   border-radius: 50%;
+   object-fit: cover;
+ }

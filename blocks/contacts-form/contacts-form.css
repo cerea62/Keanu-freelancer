@@ -1,0 +1,10 @@
+.contacts-form {
+   min-width: 464px;
+   height: 456px;
+   background-color: #fff;
+   border-radius: 5px;
+   box-shadow: -5px 5px 2px #FFC41D;
+   position: relative;
+   padding-left: 42px;
+   padding-right: 42px;
+ }

@@ -1,0 +1,20 @@
+.portfolio__card {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   background-image: linear-gradient(to top, #213E60, rgba(196, 196, 196, 0)),
+     url('../image/portfolio1.png');
+   background-size: cover;
+   height: 304px;
+   width: 304px;
+   border-radius: 5px;
+   justify-content: flex-end;
+ }
+.portfolio__card:nth-child(2) {
+   background-image: linear-gradient(to top, #213E60, rgba(196, 196, 196, 0)),
+     url('../image/portfolio2.png');
+ }
+.portfolio__card:nth-child(3) {
+   background-image: linear-gradient(to top, #213E60, rgba(196, 196, 196, 0)),
+     url('../image/portfolio3.png');
+ }

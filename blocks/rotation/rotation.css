@@ -1,0 +1,3 @@
+.rotation:hover {
+   animation: rotation 2s linear 1 alternate both;
+ }

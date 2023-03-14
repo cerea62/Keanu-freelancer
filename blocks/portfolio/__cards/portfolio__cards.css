@@ -1,0 +1,6 @@
+.portfolio__cards {
+   display: flex;
+   gap: 16px;
+   margin-top: 54px;
+
+ }

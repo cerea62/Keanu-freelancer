@@ -1,0 +1,17 @@
+.contacts-form__icon {
+   position: relative;
+ }
+.contacts-form__icon::before {
+   content: '';
+   display: flex;
+   position: absolute;
+   align-items: center;
+   top: 0;
+   bottom: 0;
+   left: 1rem;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+.contacts-form__icon .contacts-form__input {
+   padding-left: 3rem;
+ }

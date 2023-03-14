@@ -1,0 +1,6 @@
+.contacts-form__icon_phone::before {
+   width: 1rem;
+   background-image: url('../image/ico/phone-icon.png');
+   background-repeat: no-repeat;
+   background-position: center;
+ }

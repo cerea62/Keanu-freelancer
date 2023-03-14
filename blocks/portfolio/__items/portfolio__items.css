@@ -1,0 +1,7 @@
+.portfolio__items {
+   display: flex;
+   flex-direction: column;
+   max-width: 75%;
+   width: 100%;
+   margin: 64px auto 64px auto;
+ }

@@ -1,0 +1,17 @@
+.portfolio__card-button {
+   height: 36px;
+   width: 200px;
+   color: #fff;
+   background-color: #EC1F46;
+   border: none;
+   border-radius: 5px;
+   font-family: 'Roboto-Bold';
+   font-size: 12px;
+   line-height: 16px;
+   position: absolute;
+   bottom: 28px;
+   left: 30px;
+ }
+.portfolio__card-button:hover {
+   box-shadow: 0 4px 2px #EC1F46;
+ }
