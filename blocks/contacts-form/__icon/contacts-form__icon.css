@@ -1,9 +1,10 @@
 .contacts-form__icon {
    position: relative;
+   display: flex;
  }
 .contacts-form__icon::before {
    content: '';
-   display: flex;
+   
    position: absolute;
    align-items: center;
    top: 0;

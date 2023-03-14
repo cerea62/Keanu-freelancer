@@ -1,4 +1,7 @@
 .contacts-form__title {
    text-align: center;
    margin: 47px auto 30px auto;
+   font-family: 'Roboto-Bold';
+   font-size: 18px;
+   line-height: 28px;
  }
